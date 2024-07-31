@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+}
+.text1{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    padding-top: 3%;
+}
+.bar{ 
+    background-color: #FFFFFF;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+#logo{
+    height: 2rem;
+}
+#nav-name{
+    font-weight: bold;
+}
+
+button{
+    height: 2rem ;
+    color: white;
+    background-color:#EA6D27;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+#content{
+    padding-top: 3%;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.enter{
+    width: 30%;
+    height: 10% ;
+    padding: 0.5%;
+    margin-bottom: 0.8%;
+    margin-left: 35%;
+}
+h4{
+    color: #5C6574;
+}
+#end{
+    background-color: rgb(188, 190, 191);
+    margin-top: 10%;
+    height: 10rem;
+    padding-top: 2%;
+    border: 1px solid black;
+}
+#submit{
+    border-radius: 1rem;
+} 
+
+@media(max-width:700px){
+    .bar{
+        display: flex;
+        gap: 10%;
+    }
+    .nav-text{
+        display: flex;
+        justify-content: center;
+        margin-top: -17%;
+        width: 300px;
+        font-size: 0.3rem;
+    }
+}

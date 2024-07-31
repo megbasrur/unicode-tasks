@@ -1,0 +1,104 @@
+body{
+    background-image: url("bg.png");
+    background-size: contain;
+}
+.text1{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    padding-top: 3%;
+}
+.bar{ 
+    background-color: #FFFFFF;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding-top: 15px;
+}
+#logo{
+    height: 2rem;
+}
+#nav-name{
+    font-weight: bold;
+}
+
+button{
+    height: 2rem ;
+    color: white;
+    background-color:#EA6D27;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#tables{
+    display: flex;
+    margin-left: 9.8%;
+    margin-top: 10%;
+}
+
+.column1{
+    display: flex;
+    gap: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.buttons{
+    margin-left: 9.8%;
+    margin-top: 5%;
+    display: flex;
+    gap: 2%;
+}
+.menu{
+    background-color: black;
+    width: 4rem;
+}
+#heading{
+    margin-top: 30%;
+    margin-left: 10%;
+    font-weight: 700;
+font-family: "David Libre", serif;
+}
+#para1{
+    width: 25rem;
+    text-align: left;
+    margin-left: 9.8%;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin-top: 5%;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#chef{
+    margin-top: 10%;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+@media(max-width:700px){
+    .bar{
+        display: flex;
+        gap: 10%;
+    }
+    .nav-text{
+        display: flex;
+        justify-content: center;
+        margin-top: -17%;
+        width: 300px;
+        font-size: 0.3rem;
+    }
+    #para1{
+        width: 80%;
+    }
+}
