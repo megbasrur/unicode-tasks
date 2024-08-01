@@ -1,0 +1,508 @@
+
+body{
+    background-color: #FFFFFF;
+    background-image: url("bg.png");
+    background-size: contain;
+}
+footer{
+    background-color: #FFFFFF;
+    padding-top: 5%;
+}
+.text1{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    padding-top: 3%;
+}
+.bar{ 
+    background-color: #FFFFFF;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding-top: 15px;
+}
+#logo{
+    height: 2rem;
+}
+#nav-name{
+    font-weight: bold;
+}
+
+button{
+    height: 2rem ;
+    color: white;
+    background-color:#EA6D27;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+button:hover{
+    border: 2px solid rgb(11, 14, 231);
+}
+
+
+#heading{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 3rem;
+    width: 50%;
+    font-family: "David Libre", serif;
+}
+
+#para1{
+    width: 50%;
+    text-align: left;
+    margin-left: 9.8%;
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+    margin-top: -2%;
+}
+
+.buttons{
+    margin-left: 9.8%;
+    margin-top: 3%;
+    display: flex;
+    gap: 2%;
+}
+.menu{
+    background-color: black;
+    width: 4rem;
+}
+
+#first{
+    display: flex;
+    justify-content: center;
+    height: 45rem;
+    width: 100%;
+}
+
+#photos1{
+    padding-top: 5%;
+}
+#pic1{
+    height: 66%;
+    border: none;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8% ;
+    position: static;
+    margin-left: -20%;
+}
+
+#pic2{
+    height: 30%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -10%;
+    transform: rotate(10deg);
+}
+
+
+.circle{
+    height: 2rem;
+    width: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#icons{
+    display: flex;
+    gap: 4%;
+    margin-left: 9.8%;
+    margin-top: 10%;
+}
+#facebook{
+    background-image: url("facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#insta{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#twitter{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 15 15'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M7.233 4.696c0-1.727 1.4-3.127 3.127-3.127c1.014 0 1.823.479 2.365 1.175a5.246 5.246 0 0 0 1.626-.629a2.634 2.634 0 0 1-1.148 1.45l.002.003a5.26 5.26 0 0 0 1.5-.413l-.001.002c-.337.505-.76.95-1.248 1.313c.026.177.04.354.04.53c0 3.687-2.809 7.975-7.975 7.975a7.93 7.93 0 0 1-4.296-1.26a.5.5 0 0 1-.108-.748a.45.45 0 0 1 .438-.215c.916.108 1.83-.004 2.637-.356a3.086 3.086 0 0 1-1.69-1.876a.45.45 0 0 1 .103-.448a3.07 3.07 0 0 1-1.045-2.31v-.034a.45.45 0 0 1 .365-.442a3.068 3.068 0 0 1-.344-1.416c0-.468.003-1.058.332-1.59a.45.45 0 0 1 .323-.208a.5.5 0 0 1 .538.161a6.964 6.964 0 0 0 4.46 2.507zm-1.712 7.279a6.936 6.936 0 0 1-2.249-.373a5.318 5.318 0 0 0 2.39-1.042a.45.45 0 0 0-.27-.804a2.174 2.174 0 0 1-1.714-.888c.19-.015.376-.048.556-.096a.45.45 0 0 0-.028-.876a2.18 2.18 0 0 1-1.644-1.474c.2.048.409.077.623.084a.45.45 0 0 0 .265-.824a2.177 2.177 0 0 1-.97-1.812c0-.168.003-.317.013-.453a7.95 7.95 0 0 0 5.282 2.376a.5.5 0 0 0 .513-.61a2.127 2.127 0 0 1 2.071-2.614c1.234 0 2.136 1.143 2.136 2.432c0 3.256-2.476 6.974-6.975 6.974' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#second{
+    height: 50%;
+    width: 100%;
+    background-color: #F3F4F4;
+}
+#text3{
+    text-align: center;
+}
+h3{
+    font-size: 3rem;
+    font-family:  "David Libre", serif; 
+    text-align: center;
+    padding-top: 5%;
+}
+#lorem{
+    text-align: left;
+    width: 22%;
+    margin-left: 40%;
+    color:#5C6574;
+    font-size: 80%;
+    font-family: "Inter", sans-serif;
+    margin-top: -2%;
+}
+.price{
+    border: none;
+    background-color: black;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 2%;
+    line-height: 1%;
+    text-align: center;
+}
+.dollars{
+    color: white;
+}
+#lumpia{
+    display: flex;
+}
+.dish1{
+    height: 20%;
+    width: 10%;
+    position: absolute;
+}
+#rect1{
+    height: 13rem;
+    width: 11em ;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: static;
+    margin-left: -5%;
+    margin-top: 40%;
+}
+.title{
+    padding-top: 40%;
+    text-align: center;
+    font-weight: bold;
+}
+.desc{
+    text-align: center;
+    font-weight: lighter;
+    color: #5C6574;
+    font-size: 0.8rem;
+}
+#dishes{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#rect2{
+    height: 13rem;
+    width: 11em ;
+    background-color:#F3F4F4 ;
+    border: 1px solid white;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: static;
+    margin-left: -5%;
+    margin-top: 40%;
+}
+#main-sec{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.main-dish{
+    height: 50%;
+    width: 50%;
+    margin-left: 15%;
+}
+#main-text{
+    margin-left: -10%;
+}
+#main-welcome{
+    width: 55%;
+    font-size: 3rem;
+    font-family:  "David Libre", serif; 
+    font-weight: bold;
+}
+#main-para{
+    text-align: left;
+    font-weight: lighter;
+    color: #5C6574;
+    font-size: 0.8rem;
+    width: 37%;
+}
+.buttons2{
+    margin-top: 3%;
+    display: flex;
+    gap: 2%;
+}
+#second{
+    height: 80%;
+}
+
+#third{
+    background-image: url("restaurant2.jpeg");
+    height: 20rem;
+    width: 45%;
+    background-image: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+#third-text{
+    color: black;
+    background-color: white;
+    font-family:  "David Libre", serif; 
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+#bg{
+    text-align: center;
+    width: 70%;
+}
+#enter{
+    background-color: white;
+    display: flex;
+    border: none;
+    border-radius: 1rem;
+    justify-content: left;
+    color:  #101A24;
+    font-family:"Inter", sans-serif;
+}
+#enter-para{
+    margin-left: 5%;
+}
+#subscribe{
+    margin-left: 50%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 0.7rem;
+    width: 5rem;
+}
+#subscribe:hover{
+    border: 2px solid rgb(11, 14, 231) ;
+}
+
+#restaurantlogo{
+    height: 7%;
+    width: 7%;
+}
+#nav-name2{
+    font-weight: bold;
+}
+td{
+    text-align: left;
+}
+th{
+    text-align: left;
+}
+
+.sunday{
+    padding-left: 5%;
+}
+#mon{
+    padding-right: 5%
+}
+#end{
+    margin-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: -10%;
+}
+#end-para{
+    width: 60%;
+}
+#column1{
+    width: 35%;
+}
+#column2{
+    padding-top: 5%;
+    padding-left: -10%;
+}
+#column3{
+    padding-top: 5%;
+    padding-left: 5% ;
+}
+.content1{
+       padding-bottom: 10%;
+}
+.content2{
+    padding-bottom: 6%;
+}
+#column4{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#icons2{
+    display: flex;
+    gap: 10%;
+    margin-left: 9.8%;
+    margin-top: 20%;
+}
+.circles2{
+    height: 2.5rem;
+    width: 3.5rem;
+    border: none;
+    background: #F3F4F4;
+    border-radius: 50%;
+}
+#facebook2{
+    background-image: url("facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#insta2{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#twitter2{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 15 15'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M7.233 4.696c0-1.727 1.4-3.127 3.127-3.127c1.014 0 1.823.479 2.365 1.175a5.246 5.246 0 0 0 1.626-.629a2.634 2.634 0 0 1-1.148 1.45l.002.003a5.26 5.26 0 0 0 1.5-.413l-.001.002c-.337.505-.76.95-1.248 1.313c.026.177.04.354.04.53c0 3.687-2.809 7.975-7.975 7.975a7.93 7.93 0 0 1-4.296-1.26a.5.5 0 0 1-.108-.748a.45.45 0 0 1 .438-.215c.916.108 1.83-.004 2.637-.356a3.086 3.086 0 0 1-1.69-1.876a.45.45 0 0 1 .103-.448a3.07 3.07 0 0 1-1.045-2.31v-.034a.45.45 0 0 1 .365-.442a3.068 3.068 0 0 1-.344-1.416c0-.468.003-1.058.332-1.59a.45.45 0 0 1 .323-.208a.5.5 0 0 1 .538.161a6.964 6.964 0 0 0 4.46 2.507zm-1.712 7.279a6.936 6.936 0 0 1-2.249-.373a5.318 5.318 0 0 0 2.39-1.042a.45.45 0 0 0-.27-.804a2.174 2.174 0 0 1-1.714-.888c.19-.015.376-.048.556-.096a.45.45 0 0 0-.028-.876a2.18 2.18 0 0 1-1.644-1.474c.2.048.409.077.623.084a.45.45 0 0 0 .265-.824a2.177 2.177 0 0 1-.97-1.812c0-.168.003-.317.013-.453a7.95 7.95 0 0 0 5.282 2.376a.5.5 0 0 0 .513-.61a2.127 2.127 0 0 1 2.071-2.614c1.234 0 2.136 1.143 2.136 2.432c0 3.256-2.476 6.974-6.975 6.974' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#opening{
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family:  "Inter", sans-serif ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media((max-width:500px))
+{
+    .bar{
+        display: flex;
+        gap: 5%;
+    }
+    .nav-text{
+        display: flex;
+        justify-content: center;
+        margin-top: -17%;
+        width: 300px;
+    }
+    .text1{
+        font-size: 10px;
+    }
+    #book{
+        font-size: 10px;
+    }
+    #photos1{
+        width: 50%;
+        margin-left: 15%;
+        margin-right: -5%;
+    }
+    #pic1{
+        width: 200px;
+        height: 300px;
+    }
+    #heading{
+        font-size: 3rem;
+        width: 70%;
+    }
+    #para1{
+        width: 80%;
+    }
+    #pic2{
+        height: 100px;
+        margin-top: 30%;
+        margin-left: -15%;
+    }
+    #lorem{
+        width: 50%;
+        margin-left: 30%;
+    }
+    #dishes{
+        display: flex;
+        width: 60%;
+        padding-left: 23%;
+    }
+    .dish1{
+       height: 6rem;
+       width: 6rem;
+       margin-left: 2%;
+    }
+    #rect1{
+        height: 12rem;
+        width: 7rem;
+        
+    }
+    .price{
+        margin-left: 15%;
+    }
+    #rect2{
+        height: 12rem;
+        width: 7rem;
+        
+    }
+    .main-dish{
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #main-text{
+        margin-top: -10%;
+        margin-left: 3%;
+    }
+    #main-welcome{
+        font-size: 3rem;
+    }
+    #third{
+        width: 80%;
+        margin-left: 13%;
+    }
+  #enter{
+    width: 300px;
+    height: 70px;
+    margin-left: -5%;
+  }
+    #subscribe{
+        margin-top: 8%;
+    }
+    #enter-para{
+        width: 100px;
+        margin-top: 2%;
+        font-size: 15px;
+    }
+    #end{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .circles2{
+        height: 20px;
+        width: 20px;
+    }
+}
+
