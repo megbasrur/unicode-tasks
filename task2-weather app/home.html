@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.google.com/">
+</head>
+<body>
+    <div id="nav-bar">
+        <div id="nav-logo"> <img id="logo" src="logo.png"></div>
+        <div id="corner"><button id="sign">Sign Up/Log in</button></div>
+    </div>
+    <div id="title"><h1>Welcome to the Weather App</h1></div>
+    <div id="search">
+        <input type="text" id="city" placeholder="Enter city" spellcheck="false">
+        <button id="submit">Search</button>
+    </div>
+    <div id="error">
+        <p>Invalid City Name</p>
+    </div>
+    <div id="weather">
+        <img src="drizzle.png" class="icon">
+        <div id="details">
+        <h1 id="temp">28°C</h1>
+        <h2 class="city">Mumbai</h2>
+        <button class="unit">Change unit</button>
+        </div>
+    </div>
+    <div id="extra">
+        <div class="box">
+            <img id="pic1" src="humidity.png">
+            <p id="humidity">Humidity: 50%</p>
+        </div>
+        <div class="box">
+            <img id="pic2" src="wind.png">
+            <p id="wind">Wind: 20 km/h</p>
+
+        </div>
+    </div>
+    <footer>
+    <div id="end">
+        Made for you!
+    </div>
+    </footer>
+
+    <script src="first.js"></script>
+</body>
+</html>
