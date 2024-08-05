@@ -1,0 +1,637 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #FFFFFF;
+    
+}
+  
+footer{
+    background-color: rgba(214, 211, 211, 0.6);
+    border-top: 2px solid black;
+    background-color: black;
+    background-image: url("image.png");
+}
+.text1{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    padding-top: 3%;
+}
+.text1:hover{
+    text-shadow: 1px 1px rgb(198, 193, 193);
+}
+.bar{ 
+    background-color: rgba(214, 211, 211, 0.6);
+    border-bottom: 1px solid black;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding-top: 15px;
+    color: black;
+}
+#logo{
+    height: 2rem;
+}
+#nav-name{
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+button{
+    height: 2rem ;
+    color: white;
+    background-color:#EA6D27;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+button:hover{
+    text-shadow: 1px 1px rgb(136, 132, 132);
+    border: 2px solid rgb(94, 93, 91);
+}
+
+
+#heading{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 3rem;
+    width: 70%;
+    font-family: "David Libre", serif;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#para1{
+    width: 50%;
+    text-align: left;
+    margin-left: 9.8%;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    font-family: "Inter", sans-serif;
+    margin-top: -2%;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+}
+
+.buttons{
+    margin-left: 9.8%;
+    margin-top: 3%;
+    display: flex;
+    gap: 2%;
+}
+.menu{
+    background-color: black;
+    border: 2px solid white;
+    width: 4rem;
+}
+
+#first{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    height: 45rem;
+    width: 100%;
+    background-image: url("backg.png");
+    background-size: cover;
+}
+#text2{
+    margin-left: 35%;
+    margin-top: 5%;
+    /*background-color: rgba(255,255,255,0.6);
+    margin-top: 5%;
+    border: none;
+    border-top-left-radius: 10px;
+    height: 60%;
+    width: 25%;
+    align-items: center;*/
+}
+#photos1{
+    padding-top: 5%;
+}
+#pic1{
+    height: 66%;
+    border: none;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8% ;
+    position: static;
+    margin-left: -20%;
+}
+
+#pic2{
+    height: 30%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -10%;
+    transform: rotate(10deg);
+}
+
+
+.circle{
+    height: 2rem;
+    width: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#icons{
+    display: flex;
+    gap: 4%;
+    margin-left: 9.8%;
+    margin-top: 10%;
+}
+#facebook{
+    background-image: url("facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#insta{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#twitter{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 15 15'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M7.233 4.696c0-1.727 1.4-3.127 3.127-3.127c1.014 0 1.823.479 2.365 1.175a5.246 5.246 0 0 0 1.626-.629a2.634 2.634 0 0 1-1.148 1.45l.002.003a5.26 5.26 0 0 0 1.5-.413l-.001.002c-.337.505-.76.95-1.248 1.313c.026.177.04.354.04.53c0 3.687-2.809 7.975-7.975 7.975a7.93 7.93 0 0 1-4.296-1.26a.5.5 0 0 1-.108-.748a.45.45 0 0 1 .438-.215c.916.108 1.83-.004 2.637-.356a3.086 3.086 0 0 1-1.69-1.876a.45.45 0 0 1 .103-.448a3.07 3.07 0 0 1-1.045-2.31v-.034a.45.45 0 0 1 .365-.442a3.068 3.068 0 0 1-.344-1.416c0-.468.003-1.058.332-1.59a.45.45 0 0 1 .323-.208a.5.5 0 0 1 .538.161a6.964 6.964 0 0 0 4.46 2.507zm-1.712 7.279a6.936 6.936 0 0 1-2.249-.373a5.318 5.318 0 0 0 2.39-1.042a.45.45 0 0 0-.27-.804a2.174 2.174 0 0 1-1.714-.888c.19-.015.376-.048.556-.096a.45.45 0 0 0-.028-.876a2.18 2.18 0 0 1-1.644-1.474c.2.048.409.077.623.084a.45.45 0 0 0 .265-.824a2.177 2.177 0 0 1-.97-1.812c0-.168.003-.317.013-.453a7.95 7.95 0 0 0 5.282 2.376a.5.5 0 0 0 .513-.61a2.127 2.127 0 0 1 2.071-2.614c1.234 0 2.136 1.143 2.136 2.432c0 3.256-2.476 6.974-6.975 6.974' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#second{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(251, 245, 245, 0.1);
+    background-image:url("leaves.png") ;
+    background-size: contain;
+}
+#text3{
+    text-align: center;
+}
+h3{
+    font-size: 3rem;
+    font-family:  "David Libre", serif; 
+    text-align: center;
+    padding-top: 5%;
+    text-shadow: 1.5px 1.5px rgb(161, 159, 159);
+}
+#lorem{
+    text-align: left;
+    width: 22%;
+    margin-left: 40%;
+    color:#5C6574;
+    font-size: 80%;
+    font-family: "Inter", sans-serif;
+    margin-top: 2%;
+}
+.price{
+    border: none;
+    background-color: black;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 2%;
+    text-align: center;
+
+}
+.dollars{
+    color: white;
+    margin-top: 10%;
+
+}
+#lumpia{
+    display: flex;
+}
+.dish1{
+    height: 20%;
+    width: 10%;
+    position: absolute;
+}
+#rect1{
+    height: 13rem;
+    width: 11em ;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: static;
+    margin-left: -5%;
+    margin-top: 40%;
+}
+.title{
+    padding-top: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+.desc{
+    padding-top: 10%;
+    text-align: center;
+    font-weight: lighter;
+    color: #5C6574;
+    font-size: 1rem;
+}
+#dishes{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#rect2{
+    height: 13rem;
+    width: 11em ;
+    background-color:#F3F4F4 ;
+    border: 1px solid white;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: static;
+    margin-left: -5%;
+    margin-top: 40%;
+}
+#main-sec{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.main-dish{
+    height: 50%;
+    width: 50%;
+    margin-left: 15%;
+}
+#main-text{
+    margin-left: -10%;
+}
+#main-welcome{
+    width: 55%;
+    font-size: 3rem;
+    font-family:  "David Libre", serif; 
+    font-weight: bold;
+}
+#main-para{
+    text-align: left;
+    font-weight: lighter;
+    color: #5C6574;
+    font-size: 0.8rem;
+    width: 37%;
+}
+.buttons2{
+    margin-top: 3%;
+    display: flex;
+    gap: 2%;
+}
+#second{
+    height: 80%;
+    border-bottom: 50px solid black;
+}
+#last{
+    height: 70%;
+    background-color: white;
+}
+
+#third{
+    position: absolute;
+    background-image: url("restaurant2.jpeg");
+    height: 20rem;
+    width: 45%;
+    background-image: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    margin-top: 8%;
+}
+#third-text{
+    color: black;
+    background-color: white;
+    font-family:  "David Libre", serif; 
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+#bg{
+    text-align: center;
+    width: 70%;
+}
+#enter{
+    margin-top: 5%;
+    background-color: white;
+    display: flex;
+    border: none;
+    border-radius: 1rem;
+    justify-content: left;
+    color:  #101A24;
+    font-family:"Inter", sans-serif;
+}
+#enter-para{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#subscribe{
+    margin-left: 50%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 0.7rem;
+    width: 5rem;
+}
+#subscribe:hover{
+    border: 2px solid rgb(11, 14, 231) ;
+}
+#drawing2{
+    height: 20%;
+    width: 20%;
+   margin-top: 5%;
+   rotate: 30deg;
+
+}
+#drawing{
+    margin-left: 60%;
+    margin-top: -10%;
+    rotate: -30deg;
+    position: relative;
+    padding: 5%;
+    width: 40%;
+}
+#part{
+    height: 40%;
+    background-color: black;
+}
+
+#restaurantlogo{
+    height: 7%;
+    width: 7%;
+}
+#nav-name2{
+    color: white;
+    font-weight: bold;
+}
+td{
+    text-align: left;
+    color: white;
+}
+th{
+    text-align: left;
+    color: white;
+}
+
+.sunday{
+    padding-left: 5%;
+}
+#mon{
+    padding-right: 5%
+}
+#end{
+    margin-top: 3%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: -10%;
+}
+#end-para{
+    padding-top: 3%;
+    width: 60%;
+    color: white;
+}
+#column1{
+    padding-top: 5%;
+    width: 35%;
+}
+#column2{
+    padding-top: 6%;
+    padding-left: -10%;
+}
+#column3{
+    padding-top: 6%;
+    padding-left: 5% ;
+}
+.content1{
+    color: white;
+       padding-bottom: 10%;
+}
+.content2{
+    color: white;
+    padding-bottom: 6%;
+}
+#column4{
+    padding-top: 6%;
+    padding-left: 5%;
+}
+#icons2{
+    display: flex;
+    gap: 10%;
+    margin-left: 9.8%;
+    margin-top: 20%;
+}
+.circles2{
+    height: 2.5rem;
+    width: 3.5rem;
+    border: none;
+    background: #F3F4F4;
+    border-radius: 50%;
+}
+#facebook2{
+    background-image: url("facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#insta2{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#twitter2{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 15 15'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M7.233 4.696c0-1.727 1.4-3.127 3.127-3.127c1.014 0 1.823.479 2.365 1.175a5.246 5.246 0 0 0 1.626-.629a2.634 2.634 0 0 1-1.148 1.45l.002.003a5.26 5.26 0 0 0 1.5-.413l-.001.002c-.337.505-.76.95-1.248 1.313c.026.177.04.354.04.53c0 3.687-2.809 7.975-7.975 7.975a7.93 7.93 0 0 1-4.296-1.26a.5.5 0 0 1-.108-.748a.45.45 0 0 1 .438-.215c.916.108 1.83-.004 2.637-.356a3.086 3.086 0 0 1-1.69-1.876a.45.45 0 0 1 .103-.448a3.07 3.07 0 0 1-1.045-2.31v-.034a.45.45 0 0 1 .365-.442a3.068 3.068 0 0 1-.344-1.416c0-.468.003-1.058.332-1.59a.45.45 0 0 1 .323-.208a.5.5 0 0 1 .538.161a6.964 6.964 0 0 0 4.46 2.507zm-1.712 7.279a6.936 6.936 0 0 1-2.249-.373a5.318 5.318 0 0 0 2.39-1.042a.45.45 0 0 0-.27-.804a2.174 2.174 0 0 1-1.714-.888c.19-.015.376-.048.556-.096a.45.45 0 0 0-.028-.876a2.18 2.18 0 0 1-1.644-1.474c.2.048.409.077.623.084a.45.45 0 0 0 .265-.824a2.177 2.177 0 0 1-.97-1.812c0-.168.003-.317.013-.453a7.95 7.95 0 0 0 5.282 2.376a.5.5 0 0 0 .513-.61a2.127 2.127 0 0 1 2.071-2.614c1.234 0 2.136 1.143 2.136 2.432c0 3.256-2.476 6.974-6.975 6.974' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#opening{
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family:  "Inter", sans-serif ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media((max-width:500px))
+{
+    #first{
+        background-image: url("backg.png"); 
+        height: 500px;
+    }
+    .bar{
+        display: flex;
+        
+    }
+    #book{
+        margin-right:10px;
+    }
+    .nav-text{
+        display: flex;
+        justify-content: center;
+        margin-top: -17%;
+        width: 300px;
+        margin-left: 10%;
+    }
+    .text1{
+        font-size: 10px;
+    }
+    #book{
+        font-size: 10px;
+    }
+    #text2{
+        margin-left: 5%;
+    }
+    #photos1{
+        width: 50%;
+        margin-left: 15%;
+        margin-right: -5%;
+        margin-top: 50px;
+    }
+    #pic1{
+        width: 200px;
+        height: 300px;
+        border: 2px solid white;
+    }
+    #heading{
+        margin-top: 50px;
+        font-size: 2rem;
+        width: 200px;
+    
+    }
+    #para1{
+        width: 80%;
+        color: black;
+        font-weight: bold;
+        text-shadow: none;
+        padding: 2%;
+    
+    }
+    #pic2{
+        height: 100px;
+        margin-top: 30%;
+        margin-left: -15%;
+        border: 2px solid white;
+    }
+    h3{
+        padding-top: 10%;
+    }
+    #lorem{
+        margin-top: 7%;
+        width: 50%;
+        margin-left: 30%;
+    }
+    #dishes{
+        margin-top: 15%;
+        display: flex;
+        width: 60%;
+        padding-left: 23%;
+    }
+    .dish1{
+       height: 6rem;
+       width: 6rem;
+       margin-left: 2%;
+    }
+    #rect1{
+        height: 12rem;
+        width: 7rem;
+        
+    }
+    .desc{
+        font-size: 80%;
+    }
+    .price{
+        margin-left: 15%;
+    }
+    #rect2{
+        height: 12rem;
+        width: 7rem;
+        
+    }
+    .main-dish{
+        height: 80%;
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    #main-text{
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+    #main-welcome{
+        font-size: 3rem;
+        padding: 5%;
+    }
+    #main-para{
+        padding: 5%;
+        width: 80%;
+        margin-left: 3%;
+    }
+   #last{
+    margin: 5%;
+   }
+    #third{
+        width: 70%;
+        height: 30%;
+        margin-left: 13%;
+        margin-bottom: 50px;
+        position: absolute;
+        z-index: 1;
+    }
+    #drawing{
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+    #drawing2{
+        height: 20%;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+    #third-text{
+        font-size: 80%;
+    }
+    #enter{
+    width: 270px;
+    height: 40px;
+    margin-left: -5%;
+  }
+    
+    #enter-para{
+        width: 90%;
+        margin-top: 2%;
+        font-size: 10px;
+    }
+    #end{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        gap: -5%;
+        margin-left: 2px;
+    }
+    .circles2{
+        height: 15px;
+        width: 15px;
+    }
+}
+
