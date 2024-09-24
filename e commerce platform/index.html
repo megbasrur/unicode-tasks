@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+</head>
+<body class="bg-gray-400">
+    <div id="navbar" class="flex flex-row justify-center bg-black h-10 items-center">
+        <div id="text" class="flex flex-row gap-6 md:gap-14 lg:gap-20">
+            <a href="#" class="text-white">Home</a>
+            <a href="#" class="text-white">Categories</a>
+            <a href="#" class="text-blue-600 underline">Admin Panel</a>
+            <a href="#" class="text-white">Account</a>
+        </div>
+        
+    </div>
+    <div class="p-5 text-center m-2 bg-[url('/src/bg1.png')] bg-cover sm:h-20 md:h-32 lg:h-40 flex justify-center items-center">
+        <h1 id="title" class="text-xl md:text-2xl lg:text-3xl font-bold underline font-serif text-center">Inventory Management</h1>
+    </div>
+    <div class="text-center border-2 bg-white shadow-md rounded-md">
+        <h2 class="text-xl font-semibold text-blue-600 font-sans">Admin Panel</h2>
+    </div>
+    <div id="buttons">
+        <div class="flex sm:gap-10 md:gap-20 lg:gap-40 mt-5 justify-center">
+        <button id="view" class="bg-red-500 w-32 m-7 h-10 text-center flex justify-center items-center border rounded shadow-md hover:bg-red-700">View Products</button>
+        <button id="add" class="bg-green-500 w-32 m-7 h-10 text-center flex justify-center items-center border rounded shadow-md hover:bg-green-700">Add Products</button>
+        </div>
+        </div>
+        <div id="viewProducts" class=>
+        <div id="container" class="bg-gray-400 absolute p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        </div>
+        <div id="popup" class="hidden z-50">
+            <form class="mt-10 p-12 bg-gray-100 flex flex-col gap-2 items-center sm:w-30 sm:ml-3 md:1/4 md:ml-4 lg:w-1/4 relative border-2 border-black shadow-2xl rounded-md">
+                <h2 class="font-bold text-lg pb-5">Add Products</h2>
+                <div class="mb-4 ml-4 flex gap-1">
+                    <label class=" text-gray-600">Product Name:</label>
+                    <input id="product-name" type="text" placeholder="Enter product name" class="p-2 border-2 h-7 w-100">
+                </div>
+                <div class="mb-4 ml-4 flex gap-1">
+                    <label class=" text-gray-600">Price:</label>
+                    <input id="product-price" type="text" placeholder="Enter price" class="p-2 border-2 h-7 w-100">
+                </div>
+                <div class="mb-4 ml-4 flex gap-1">
+                    <label class=" text-gray-600">Description:</label>
+                    <textarea id="product-desc" type="text" placeholder="Enter description" class="pl-1 border-2 h-7 w-100"></textarea>
+                </div>
+                <div class="mb-4 ml-4 flex gap-1">
+                    <label class=" text-gray-600">Image:</label>
+                    <input id="product-img" type="text" placeholder="Enter image link" class="p-2 border-2 h-7 w-100">
+                </div>
+                <div class="mb-4 ml-4 text-center flex gap-5">
+                    <button id="addProduct" type="submit" class="bg-yellow-500 px-4 rounded-md mt-3 hover:border-2 hover:border-gray-500">Add</button>
+                    <button id="close" type="submit" class="bg-black text-white px-4 rounded-md mt-3 hover:border-2 hover:border-gray-500">Close Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+   
+  
+    <script src="first.js"></script> 
+</body>
+</html>
